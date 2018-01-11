@@ -1,0 +1,4 @@
+O projeto foi desenvolvido a princípio em uma camada pois serveria de estudo, já que não tenho experiência na construção de web api.
+Devido a falta de tempo que tive no desenvolvimento de um novo projeto para entrega, que seria feito em camadas com Domínio, Data, Utils e a própria do Api, tentei deixar separado em camadas internas do projeto Api.
+
+Alguns pontos da documentação dos endpoints não foram codificados como o login e a utilização de tokens. Esse último, devido a falta de conhecimento de implementação.
