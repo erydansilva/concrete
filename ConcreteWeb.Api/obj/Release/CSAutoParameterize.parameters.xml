@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ConexaoConcrete-Web.config Connection String" description="ConexaoConcrete A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=ConcreteDB; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|ConcreteDB.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Estudo\ VS2017\\ConcreteWeb\\ConcreteWeb\.Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConexaoConcrete']/@connectionString" />
+  </parameter>
+  <parameter name="ConexaoConcrete_DatabasePublish-Web.config Connection String" description="ConexaoConcrete_DatabasePublish A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="ConexaoConcrete_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Estudo\ VS2017\\ConcreteWeb\\ConcreteWeb\.Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConexaoConcrete_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

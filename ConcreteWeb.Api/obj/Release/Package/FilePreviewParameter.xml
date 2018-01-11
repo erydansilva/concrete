@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ConcreteWebApi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Estudo\ VS2017\\ConcreteWeb\\ConcreteWeb\.Api\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Estudo\ VS2017\\ConcreteWeb\\ConcreteWeb\.Api\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ConexaoConcrete-Web.config Connection String" description="" value="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=ConcreteDB; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|ConcreteDB.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Estudo\ VS2017\\ConcreteWeb\\ConcreteWeb\.Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConexaoConcrete']/@connectionString" />
+  </parameter>
+</parameters>
