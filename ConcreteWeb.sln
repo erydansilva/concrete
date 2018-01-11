@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcreteWeb.Api", "ConcreteWeb.Api\ConcreteWeb.Api.csproj", "{90B2BA60-6748-4AB2-9BA0-BA919B954E4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90B2BA60-6748-4AB2-9BA0-BA919B954E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B2BA60-6748-4AB2-9BA0-BA919B954E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B2BA60-6748-4AB2-9BA0-BA919B954E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B2BA60-6748-4AB2-9BA0-BA919B954E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7A264C1-5493-42A3-BBBF-B7D719082378}
+	EndGlobalSection
+EndGlobal
